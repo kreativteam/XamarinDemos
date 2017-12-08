@@ -6,7 +6,7 @@
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Entry Text="{Binding Text}"/>
-        <Label Text="{Binding Text}" />
+        <Label Text="{Binding Text}"/>
     </StackLayout>
 
 </ContentPage>
