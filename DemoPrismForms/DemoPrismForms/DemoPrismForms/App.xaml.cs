@@ -1,6 +1,4 @@
-﻿using DemoPrismForms.ViewModels;
-using DemoPrismForms.Views;
-using DryIoc;
+﻿using DemoPrismForms.Views;
 using Prism.DryIoc;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
