@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMVVMCrossForms.UWP", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMVVMCrossForms.WPF", "DemoMVVMCrossForms\DemoMVVMCrossForms.WPF\DemoMVVMCrossForms.WPF.csproj", "{B4959AD9-9644-46C1-886C-7DB3A0DD6186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMVVMCrossForms.CoreS", "DemoMVVMCrossForms.CoreS\DemoMVVMCrossForms.CoreS.csproj", "{FEC83A97-2243-432B-901A-D5E783950D93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMVVMCrossForms.Core", "DemoMVVMCrossForms\DemoMVVMCrossForms.Core\DemoMVVMCrossForms.Core.csproj", "{FEC83A97-2243-432B-901A-D5E783950D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
