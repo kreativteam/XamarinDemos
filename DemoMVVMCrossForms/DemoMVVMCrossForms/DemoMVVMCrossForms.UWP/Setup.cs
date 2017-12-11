@@ -1,4 +1,6 @@
 ﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.Logging;
+using MvvmCross.Platform.Platform;
 using MvvmCross.Uwp.Platform;
 using Windows.UI.Xaml.Controls;
 
@@ -10,9 +12,17 @@ namespace DemoMVVMCrossForms.UWP
         {
         }
 
+        protected override MvxLogProviderType GetDefaultLogProviderType()
+            => MvxLogProviderType.None;
+
         protected override IMvxApplication CreateApp()
         {
             return new CoreS.App();
+        }
+
+        protected override IMvxTrace CreateDebugTrace()
+        {
+            return new DebugTrace();
         }
     }
 }

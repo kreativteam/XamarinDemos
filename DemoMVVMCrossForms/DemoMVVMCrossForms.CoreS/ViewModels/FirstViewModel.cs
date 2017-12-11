@@ -1,15 +1,11 @@
 using MvvmCross.Core.ViewModels;
+using PropertyChanged;
 
 namespace DemoMVVMCrossForms.CoreS.ViewModels
 {
-    public class FirstViewModel
-        : MvxViewModel
+    [AddINotifyPropertyChangedInterface]
+    public class FirstViewModel : MvxViewModel
     {
-        string hello = "Hello MvvmCross";
-        public string Hello
-        {
-            get { return hello; }
-            set { SetProperty(ref hello, value); }
-        }
+        public string Hello { get; set; } = "Hallo Fabian";
     }
 }
