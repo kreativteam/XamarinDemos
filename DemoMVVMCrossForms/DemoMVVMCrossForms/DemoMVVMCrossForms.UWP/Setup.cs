@@ -1,6 +1,6 @@
-﻿using Windows.UI.Xaml.Controls;
-using MvvmCross.Core.ViewModels;
+﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.Uwp.Platform;
+using Windows.UI.Xaml.Controls;
 
 namespace DemoMVVMCrossForms.UWP
 {
@@ -12,7 +12,7 @@ namespace DemoMVVMCrossForms.UWP
 
         protected override IMvxApplication CreateApp()
         {
-            return new Core.App();
+            return new CoreS.App();
         }
     }
 }

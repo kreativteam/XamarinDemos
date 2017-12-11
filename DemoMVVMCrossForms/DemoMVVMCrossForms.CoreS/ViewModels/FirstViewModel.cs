@@ -1,6 +1,6 @@
 using MvvmCross.Core.ViewModels;
 
-namespace DemoMVVMCrossForms.Core.ViewModels
+namespace DemoMVVMCrossForms.CoreS.ViewModels
 {
     public class FirstViewModel
         : MvxViewModel

@@ -1,6 +1,7 @@
+using DemoMVVMCrossForms.CoreS.ViewModels;
 using MvvmCross.Platform.IoC;
 
-namespace DemoMVVMCrossForms.Core
+namespace DemoMVVMCrossForms.CoreS
 {
     public class App : MvvmCross.Core.ViewModels.MvxApplication
     {
@@ -11,7 +12,7 @@ namespace DemoMVVMCrossForms.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.FirstViewModel>();
+            RegisterAppStart<FirstViewModel>();
         }
     }
 }

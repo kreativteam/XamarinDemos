@@ -1,7 +1,7 @@
-﻿using System;
+﻿using DemoMVVMCrossForms.CoreS.ViewModels;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
-using DemoMVVMCrossForms.Core.ViewModels;
+using System;
 
 namespace DemoMVVMCrossForms.iOS.Views
 {

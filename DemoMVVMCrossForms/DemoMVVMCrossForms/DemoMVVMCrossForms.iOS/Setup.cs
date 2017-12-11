@@ -1,3 +1,4 @@
+using DemoMVVMCrossForms.CoreS;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views.Presenters;
@@ -20,7 +21,7 @@ namespace DemoMVVMCrossForms.iOS
 
         protected override IMvxApplication CreateApp()
         {
-            return new Core.App();
+            return new App();
         }
 
         protected override IMvxTrace CreateDebugTrace()

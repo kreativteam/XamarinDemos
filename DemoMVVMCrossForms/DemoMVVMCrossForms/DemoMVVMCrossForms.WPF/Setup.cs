@@ -1,9 +1,8 @@
-using System.Windows.Threading;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using MvvmCross.Wpf.Platform;
-using MvvmCross.Wpf.Views;
 using MvvmCross.Wpf.Views.Presenters;
+using System.Windows.Threading;
 
 namespace DemoMVVMCrossForms.WPF
 {
@@ -17,7 +16,7 @@ namespace DemoMVVMCrossForms.WPF
 
         protected override IMvxApplication CreateApp()
         {
-            return new Core.App();
+            return new CoreS.App();
         }
 
         protected override IMvxTrace CreateDebugTrace()

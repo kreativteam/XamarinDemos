@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Weavers>
+  <PropertyChanged EventInvokerNames="OnPropertyChanged, NotifyOfPropertyChange, RaisePropertyChanged, NotifyPropertyChanged, NotifyChanged"/>
+</Weavers>

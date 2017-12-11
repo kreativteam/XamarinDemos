@@ -1,4 +1,5 @@
 using Android.Content;
+using DemoMVVMCrossForms.CoreS;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Platform.Platform;
@@ -13,7 +14,7 @@ namespace DemoMVVMCrossForms.Droid
 
         protected override IMvxApplication CreateApp()
         {
-            return new Core.App();
+            return new App();
         }
 
         protected override IMvxTrace CreateDebugTrace()
