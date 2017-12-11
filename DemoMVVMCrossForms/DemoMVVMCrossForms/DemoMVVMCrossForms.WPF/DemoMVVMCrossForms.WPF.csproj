@@ -140,13 +140,13 @@
     <Resource Include="MvvmCross.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DemoMVVMCrossForms.CoreS\DemoMVVMCrossForms.CoreS.csproj">
-      <Project>{fec83a97-2243-432b-901a-d5e783950d93}</Project>
-      <Name>DemoMVVMCrossForms.CoreS</Name>
-    </ProjectReference>
+    <None Include="FodyWeavers.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FodyWeavers.xml" />
+    <ProjectReference Include="..\DemoMVVMCrossForms.Core\DemoMVVMCrossForms.Core.csproj">
+      <Project>{fec83a97-2243-432b-901a-d5e783950d93}</Project>
+      <Name>DemoMVVMCrossForms.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\..\packages\Fody.2.2.1.0\build\net452\Fody.targets" Condition="Exists('..\..\packages\Fody.2.2.1.0\build\net452\Fody.targets')" />

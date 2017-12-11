@@ -1,7 +1,6 @@
-using DemoMVVMCrossForms.CoreS.ViewModels;
-using MvvmCross.Platform.IoC;
+using DemoMVVMCrossForms.Core.ViewModels;
 
-namespace DemoMVVMCrossForms.CoreS
+namespace DemoMVVMCrossForms.Core
 {
     public class App : MvvmCross.Core.ViewModels.MvxApplication
     {

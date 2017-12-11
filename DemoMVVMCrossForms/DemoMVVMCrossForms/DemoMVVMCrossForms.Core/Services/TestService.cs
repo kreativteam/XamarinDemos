@@ -1,4 +1,4 @@
-﻿namespace DemoMVVMCrossForms.CoreS.Services
+﻿namespace DemoMVVMCrossForms.Core.Services
 {
     public class TestService : ITestService
     {

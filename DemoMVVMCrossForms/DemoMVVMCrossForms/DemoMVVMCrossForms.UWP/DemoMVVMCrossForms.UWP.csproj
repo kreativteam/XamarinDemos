@@ -124,12 +124,6 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DemoMVVMCrossForms.CoreS\DemoMVVMCrossForms.CoreS.csproj">
-      <Project>{fec83a97-2243-432b-901a-d5e783950d93}</Project>
-      <Name>DemoMVVMCrossForms.CoreS</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="Views\FirstView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -148,6 +142,12 @@
     <PackageReference Include="PropertyChanged.Fody">
       <Version>2.2.4</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DemoMVVMCrossForms.Core\DemoMVVMCrossForms.Core.csproj">
+      <Project>{fec83a97-2243-432b-901a-d5e783950d93}</Project>
+      <Name>DemoMVVMCrossForms.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

@@ -1,8 +1,8 @@
-using DemoMVVMCrossForms.CoreS.Services;
+using DemoMVVMCrossForms.Core.Services;
 using MvvmCross.Core.ViewModels;
 using PropertyChanged;
 
-namespace DemoMVVMCrossForms.CoreS.ViewModels
+namespace DemoMVVMCrossForms.Core.ViewModels
 {
     [AddINotifyPropertyChangedInterface]
     public class FirstViewModel : MvxViewModel

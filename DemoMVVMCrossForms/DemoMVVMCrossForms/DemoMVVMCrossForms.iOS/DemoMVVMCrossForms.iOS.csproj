@@ -211,9 +211,9 @@
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DemoMVVMCrossForms.CoreS\DemoMVVMCrossForms.CoreS.csproj">
+    <ProjectReference Include="..\DemoMVVMCrossForms.Core\DemoMVVMCrossForms.Core.csproj">
       <Project>{fec83a97-2243-432b-901a-d5e783950d93}</Project>
-      <Name>DemoMVVMCrossForms.CoreS</Name>
+      <Name>DemoMVVMCrossForms.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
