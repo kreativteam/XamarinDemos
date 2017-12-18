@@ -1,4 +1,4 @@
-using DemoMVVMCrossForms.CoreS;
+using DemoMVVMCrossForms.Core;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views.Presenters;

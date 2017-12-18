@@ -1,5 +1,5 @@
 using Android.Content;
-using DemoMVVMCrossForms.CoreS;
+using DemoMVVMCrossForms.Core;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Platform.Platform;

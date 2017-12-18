@@ -16,7 +16,7 @@ namespace DemoMVVMCrossForms.WPF
 
         protected override IMvxApplication CreateApp()
         {
-            return new CoreS.App();
+            return new Core.App();
         }
 
         protected override IMvxTrace CreateDebugTrace()

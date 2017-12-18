@@ -1,4 +1,5 @@
 using DemoMVVMCrossForms.Core.ViewModels;
+using MvvmCross.Platform.IoC;
 
 namespace DemoMVVMCrossForms.Core
 {

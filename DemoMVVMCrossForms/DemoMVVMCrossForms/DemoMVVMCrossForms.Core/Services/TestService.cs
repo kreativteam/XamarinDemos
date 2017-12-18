@@ -6,10 +6,14 @@
 
         public string HalloWelt
         {
-            get { return _halloWelt; }
+            get
+            {
+
+                return "asdio";
+            }
             set
             {
-                //TODO Call RESt
+
                 _halloWelt = value;
             }
         }
